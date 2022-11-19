@@ -1,0 +1,95 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+--root {
+  --color-black: black;
+  --color-white: white;
+  --font-system-stack: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 500;
+  background: url(../images/morning.webp) no-repeat center / cover;
+  height: 100vh;
+}
+
+h1,
+h2 {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+h1 {
+  font-size: 3.4rem;
+  margin-bottom: 1.5rem;
+}
+
+h2 {
+  font-size: 3.2rem;
+}
+
+.container {
+  max-width: 300px;
+  margin: auto;
+  padding: 2rem 1rem 4rem;
+  background: linear-gradient(
+    132deg,
+    rgba(235, 246, 245, 1) 35%,
+    rgba(221, 247, 249, 1) 100%
+  );
+  opacity: 1;
+  margin-top: 80px;
+  border-radius: 15px;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.btn {
+  margin-top: 2rem;
+  padding: 1.5rem 5rem;
+  border: none;
+  color: white;
+  border-radius: 10px;
+}
+
+.count__btn {
+  background: linear-gradient(
+    132deg,
+    rgba(1, 150, 8, 1) 35%,
+    rgba(28, 111, 3, 1) 100%
+  );
+}
+
+.reset__btn {
+  background: linear-gradient(
+    132deg,
+    rgba(242, 6, 6, 1) 35%,
+    rgba(172, 4, 4, 1) 100%
+  );
+}
+
+.save__btn {
+  background: linear-gradient(
+    132deg,
+    rgba(6, 26, 242, 1) 35%,
+    rgba(12, 4, 172, 1) 100%
+  );
+}
